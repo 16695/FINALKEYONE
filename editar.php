@@ -27,7 +27,7 @@
 		<div id="imFooterBg"></div>
 		<div id="imPage">
 			<div id="imHeader">
-				<h1 class="imHidden">nuevo registro;0</h1>
+				<h1 class="imHidden">EDICION;0</h1>
                 
                 
 				
@@ -51,11 +51,28 @@
 			<div id="imContentGraphics"></div>
 			<div id="imContent">
 				<a id="imGoToCont"></a>
-				<h2 id="imPgTitle"><MARQUEE BEHAVIOR=alternate>DANZA</MARQUEE></h2>
+				<h2 id="imPgTitle">EDITAR </h2>
                 <div align="right">
                 <input type="button" value="regresar" onClick="history.back(-1)" />
               </div>
-				
+				<table align='center' width='90%' border='1' cellspacing='3' cellpadding='1'>
+  <tr>
+
+<th bgcolor= "#66FFCC">NUMERO DE CONTROL</th>
+
+</tr>
+<tr>
+
+
+<td><input type="text" name="NUMERO" ></td> 
+
+
+
+
+</tr> 
+
+
+</table>
 				
 				<div id="imFooPad" style="height: 0px; float: left;">&nbsp;</div><div id="imBtMn"><a href="ExtraEscolaresV2'0/Preview/index.html"></a> | <a href="ExtraEscolaresV2'0/Preview/menuwebmaster.html">Menus</a> | <a href="ExtraEscolaresV2'0/Preview/imsitemap.html">Mapa general del sitio</a></div>				  
 				<div class="imClear"></div>

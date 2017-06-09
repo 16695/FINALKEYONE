@@ -51,11 +51,10 @@
 			<div id="imContentGraphics"></div>
 			<div id="imContent">
 				<a id="imGoToCont"></a>
-				<h2 id="imPgTitle"><MARQUEE BEHAVIOR=alternate>DANZA</MARQUEE></h2>
+				<h2 id="imPgTitle"><MARQUEE BEHAVIOR=alternate>ROBOTICA</MARQUEE></h2>
                 <div align="right">
                 <input type="button" value="regresar" onClick="history.back(-1)" />
               </div>
-				
 				
 				<div id="imFooPad" style="height: 0px; float: left;">&nbsp;</div><div id="imBtMn"><a href="ExtraEscolaresV2'0/Preview/index.html"></a> | <a href="ExtraEscolaresV2'0/Preview/menuwebmaster.html">Menus</a> | <a href="ExtraEscolaresV2'0/Preview/imsitemap.html">Mapa general del sitio</a></div>				  
 				<div class="imClear"></div>

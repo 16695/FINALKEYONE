@@ -51,7 +51,7 @@
 			<div id="imContentGraphics"></div>
 			<div id="imContent">
 				<a id="imGoToCont"></a>
-				<h2 id="imPgTitle"><MARQUEE BEHAVIOR=alternate>DANZA</MARQUEE></h2>
+				<h2 id="imPgTitle"><MARQUEE BEHAVIOR=alternate>PINTURA</MARQUEE></h2>
                 <div align="right">
                 <input type="button" value="regresar" onClick="history.back(-1)" />
               </div>

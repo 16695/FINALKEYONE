@@ -27,7 +27,7 @@
 		<div id="imFooterBg"></div>
 		<div id="imPage">
 			<div id="imHeader">
-				<h1 class="imHidden">nuevo registro;0</h1>
+				<h1 class="imHidden">EDICION;0</h1>
                 
                 
 				
@@ -51,13 +51,12 @@
 			<div id="imContentGraphics"></div>
 			<div id="imContent">
 				<a id="imGoToCont"></a>
-				<h2 id="imPgTitle"><MARQUEE BEHAVIOR=alternate>DANZA</MARQUEE></h2>
-                <div align="right">
+				<h2 id="imPgTitle">CALENDARIO </h2>
+              <div align="right">
                 <input type="button" value="regresar" onClick="history.back(-1)" />
               </div>
-				
-				
-				<div id="imFooPad" style="height: 0px; float: left;">&nbsp;</div><div id="imBtMn"><a href="ExtraEscolaresV2'0/Preview/index.html"></a> | <a href="ExtraEscolaresV2'0/Preview/menuwebmaster.html">Menus</a> | <a href="ExtraEscolaresV2'0/Preview/imsitemap.html">Mapa general del sitio</a></div>				  
+				<img src="imagen/15965988_1373607236047241_6606487426656587789_n.jpg" width="938" height="832">
+<div id="imFooPad" style="height: 0px; float: left;">&nbsp;</div><div id="imBtMn"><a href="ExtraEscolaresV2'0/Preview/index.html"></a> | <a href="ExtraEscolaresV2'0/Preview/menuwebmaster.html">Menus</a> | <a href="ExtraEscolaresV2'0/Preview/imsitemap.html">Mapa general del sitio</a></div>				  
 				<div class="imClear"></div>
 			</div>
 			<div id="imFooter">
