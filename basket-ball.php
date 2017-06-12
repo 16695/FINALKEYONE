@@ -1,74 +1,81 @@
-<!DOCTYPE html><!-- HTML5 -->
-<html lang="es" dir="ltr">
-	<head>
-		<title>SalidasProg - ExtraEscolaresV2&#39;0</title>
-		<meta charset="utf-8" />
-		<!--[if IE]><meta http-equiv="ImageToolbar" content="False" /><![endif]-->
-		<meta name="author" content="Kronoz" />
-		<meta name="generator" content="Incomedia WebSite X5 Evolution 10.0.2.24 - www.websitex5.com" />
-		<meta name="viewport" content="width=960" />
-		<link rel="stylesheet" type="text/css" href="ExtraEscolaresV2'0/Preview/style/reset.css" media="screen,print" />
-		<link rel="stylesheet" type="text/css" href="ExtraEscolaresV2'0/Preview/style/print.css" media="print" />
-		<link rel="stylesheet" type="text/css" href="ExtraEscolaresV2'0/Preview/style/style.css" media="screen,print" />
-		<link rel="stylesheet" type="text/css" href="ExtraEscolaresV2'0/Preview/style/template.css" media="screen" />
-		<link rel="stylesheet" type="text/css" href="ExtraEscolaresV2'0/Preview/style/menu.css" media="screen" />
-		<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="style/ie.css" media="screen" /><![endif]-->
-		<link rel="stylesheet" type="text/css" href="ExtraEscolaresV2'0/Preview/pcss/salidasprog.css" media="screen" />
-		<script type="text/javascript" src="ExtraEscolaresV2'0/Preview/res/jquery.js?24"></script>
-		<script type="text/javascript" src="ExtraEscolaresV2'0/Preview/res/x5engine.js?24"></script>
-		<script type="text/javascript" src="ExtraEscolaresV2'0/Preview/res/x5engine.offline.js?24_636252543659507159"></script>
-		<script type="text/javascript">
-			x5engine.boot.push(function () { x5engine.utils.imPreloadImages(['menu/index_h.png','menu/menus_h.png','menu/sub.png','menu/sub_h.png','menu/sub_f.png','menu/sub_f_h.png','menu/sub_l.png','menu/sub_l_h.png','menu/sub_m.png','menu/sub_m_h.png','res/imLoad.gif','res/imClose.png']); });
-		</script>
-		
-	</head>
-	<body>
-		<div id="imHeaderBg"></div>
-		<div id="imFooterBg"></div>
-		<div id="imPage">
-			<div id="imHeader">
-				<h1 class="imHidden">nuevo registro;0</h1>
-                
-                
-				
-				
-			</div>
-			<a class="imHidden" href="#imGoToCont" title="Salta el menu principal">Vaya al Contenido</a>
-			<a id="imGoToMenu"></a><p class="imHidden">Menu Principal:</p>
-			<div id="imMnMn" class="auto">
-				<ul class="auto">
-					<li id="imMnMnNode0">
-						
-					
-						
-						<ul class="auto">
-							
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-			<div id="imContentGraphics"></div>
-			<div id="imContent">
-				<a id="imGoToCont"></a>
-				<h2 id="imPgTitle"><MARQUEE BEHAVIOR=alternate>BASKET BALL</MARQUEE></h2>
-                <div align="right">
-                <input type="button" value="regresar" onClick="history.back(-1)" />
-              </div>
-				
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<script src="includes/ice/ice.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+</head>
 
 
 
-				
-				<div id="imFooPad" style="height: 0px; float: left;">&nbsp;</div><div id="imBtMn"><a href="ExtraEscolaresV2'0/Preview/index.html"></a> | <a href="ExtraEscolaresV2'0/Preview/menuwebmaster.html">Menus</a> | <a href="ExtraEscolaresV2'0/Preview/imsitemap.html">Mapa general del sitio</a></div>				  
-				<div class="imClear"></div>
-			</div>
-			<div id="imFooter">
-				
-				<div onclick="x5engine.utils.location('creditos.html'); return false;" style="position: absolute; top: 5px; left: 879px; width: 66px; height: 62px; cursor: pointer;"></div>
-			</div>
-		</div>
-		<span class="imHidden"><a href="#imGoToCont" title="Lea esta página de nuevo">Regreso al contenido</a> | <a href="#imGoToMenu" title="Lea este sitio de nuevo">Regreso al menu principal</a></span>
-		
-	</body>
+
+<body background="imagen/240_F_70655085_kAsIx4P17hhaD1aYyg9C13L0Q95ml0NM.jpg">
+
+<center>
+  <p><img src="imagen/top.png" width="1200" height="150" alt="k" /></p>
+  <table>
+  <td><td><td><td><td><td>
+  <td align="center">
+  <ul id="MenuBar1" class="MenuBarHorizontal">
+    <li><a href="menuadmin.php">INICIO</a></li>
+    <li><a class="MenuBarItemSubmenu" href="#">REGISTRO</a>
+      <ul>
+        <li><a href="#" class="MenuBarItemSubmenu">NUEVO</a>
+          <ul>
+            <li><a href="#">ALUMNO</a></li>
+            <li><a href="#">CLUB</a></li>
+            <li><a href="#">EVENTO</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="MenuBarItemSubmenu">EDITAR</a>
+          <ul>
+            <li><a href="#">ALUMNO</a></li>
+            <li><a href="#">CLUB</a></li>
+            <li><a href="#">EVENTO</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="MenuBarItemSubmenu">ELIMINAR </a>
+          <ul>
+            <li><a href="#">ALUMNO</a></li>
+            <li><a href="#">CLUB</a></li>
+            <li><a href="#">EVENTO</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#" class="MenuBarItemSubmenu">CLUBS</a>
+      <ul>
+        <li><a href="#">BANDA</a></li>
+        <li><a href="#">DANZA</a></li>
+        <li><a href="#">PINTURA</a></li>
+        <li><a href="#">FUTBOL</a></li>
+        <li><a href="#">ROBOTICA</a></li>
+        <li><a href="#">BASQUET</a></li>
+      </ul>
+    </li>
+    <li><a href="#">BUSQUEDA</a></li>
+    <li><a href="#">NOTIFICACION</a></li>
+    <li><a href="#">SALIDAS</a></li>
+    <li><a href="#">EXPORTAR</a></li>
+    <li><a href="#">IMPRIMIR</a></li>
+    <li><a href="#">CERRAR SESION</a></li>
+  </ul>
+  </td> </td> </td> </td> </td> </td>
+  </table>
+</center>
+<div class="col-lg-5"   style="background-color: #C60; height:35px; width:1200px; margin-right:auto; margin-left:auto;   "></div>
+<div class="col-lg-5"   style="background-color: #FFF; height:500px; width:1200px; margin-right:auto; margin-left:auto;   ">
+
+<div align="right"></div>
+
+</div>
+<center>
+<img src="imagen/Captura.PNG" width="1200" height="75" alt="j" />
+</center>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
 </html>

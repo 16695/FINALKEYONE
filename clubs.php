@@ -13,7 +13,7 @@
 		<link rel="stylesheet" type="text/css" href="ExtraEscolaresV2'0/Preview/style/template.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="ExtraEscolaresV2'0/Preview/style/menu.css" media="screen" />
 		<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="style/ie.css" media="screen" /><![endif]-->
-		<link rel="stylesheet" type="text/css" href="ExtraEscolaresV2'0/Preview/pcss/salidasprog.css" media="screen" />
+		
 		<script type="text/javascript" src="ExtraEscolaresV2'0/Preview/res/jquery.js?24"></script>
 		<script type="text/javascript" src="ExtraEscolaresV2'0/Preview/res/x5engine.js?24"></script>
 		<script type="text/javascript" src="ExtraEscolaresV2'0/Preview/res/x5engine.offline.js?24_636252543659507159"></script>
@@ -22,7 +22,7 @@
 		</script>
 		
 	</head>
-	<body>
+	<body background="imagen/240_F_70655085_kAsIx4P17hhaD1aYyg9C13L0Q95ml0NM.jpg">
 		<div id="imHeaderBg"></div>
 		<div id="imFooterBg"></div>
 		<div id="imPage">
@@ -35,19 +35,7 @@
 			</div>
 			<a class="imHidden" href="#imGoToCont" title="Salta el menu principal">Vaya al Contenido</a>
 			<a id="imGoToMenu"></a><p class="imHidden">Menu Principal:</p>
-			<div id="imMnMn" class="auto">
-				<ul class="auto">
-					<li id="imMnMnNode0">
-						
-					
-						
-						<ul class="auto">
-							
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</div>
+			<div id="imMnMn" class="auto"></div>
 			<div id="imContentGraphics"></div>
 			<div id="imContent">
 				<a id="imGoToCont"></a>

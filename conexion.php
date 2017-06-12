@@ -1,5 +1,5 @@
 <?php
 
-$con = mysql_connect('localhost','root','12345678');
-mysql_select_db(prueba,$con);
+      $con = mysql_connect('localhost','root','12345678');
+     mysql_select_db(extraescolar,$con);
 ?>

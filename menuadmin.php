@@ -1,99 +1,108 @@
-<!DOCTYPE html><!-- HTML5 -->
-<html lang="es" dir="ltr">
-	<head>
-		<title>MenuAlumno - ExtraEscolaresV2&#39;0</title>
-		<meta charset="utf-8" />
-		<!--[if IE]><meta http-equiv="ImageToolbar" content="False" /><![endif]-->
-		<meta name="author" content="Kronoz" />
-		<meta name="generator" content="Incomedia WebSite X5 Evolution 10.0.2.24 - www.websitex5.com" />
-		<meta name="viewport" content="width=960" />
-		<link rel="stylesheet" type="text/css" href="ExtraEscolaresV2'0/Preview/style/reset.css" media="screen,print" />
-		<link rel="stylesheet" type="text/css" href="ExtraEscolaresV2'0/Preview/style/print.css" media="print" />
-		<link rel="stylesheet" type="text/css" href="ExtraEscolaresV2'0/Preview/style/style.css" media="screen,print" />
-		<link rel="stylesheet" type="text/css" href="ExtraEscolaresV2'0/Preview/style/template.css" media="screen" />
-		<link rel="stylesheet" type="text/css" href="ExtraEscolaresV2'0/Preview/style/menu.css" media="screen" />
-		<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="style/ie.css" media="screen" /><![endif]-->
-		<link rel="stylesheet" type="text/css" href="ExtraEscolaresV2'0/Preview/pcss/menualumno.css" media="screen" />
-		<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
-		<script type="text/javascript" src="ExtraEscolaresV2'0/Preview/res/jquery.js?24"></script>
-		<script type="text/javascript" src="ExtraEscolaresV2'0/Preview/res/x5engine.js?24"></script>
-		<script type="text/javascript" src="ExtraEscolaresV2'0/Preview/res/x5engine.offline.js?24_636252543659039158"></script>
-		<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
-		<script type="text/javascript">
-			x5engine.boot.push(function () { x5engine.utils.imPreloadImages(['menu/index_h.png','menu/menus_h.png','menu/sub.png','menu/sub_h.png','menu/sub_f.png','menu/sub_f_h.png','menu/sub_l.png','menu/sub_l_h.png','menu/sub_m.png','menu/sub_m_h.png','res/imLoad.gif','res/imClose.png']); });
-		</script>
-		
-	</head>
-	<body>
-		<div id="imHeaderBg"></div>
-		<div id="imFooterBg"></div>
-		<div id="imPage">
-			<div id="imHeader">
-				<h1 class="imHidden">MenuAlumno - ExtraEscolaresV2&#39;0</h1>
-				
-				<div onmouseover="$('#imHoverImage_1').css('display','')" onmouseout="$('#imHoverImage_1').css('display','none');" style="position: absolute; top: 12px; left: 4px; width: 251px; height: 134px;"><img id="imHoverImage_1" src="ExtraEscolaresV2'0/Preview/images/kssssa.png" alt="" onmouseout="$(this).css('display','none');" style="display: none; width: 251px; height: 134px;" /></div>
-			</div>
-			
-			<div id="imMnMn" class="auto">
-				<ul class="auto">
-					<li id="imMnMnNode0">
-						<a href="ExtraEscolaresV2'0/Preview/index.html">
-							<span class="imMnMnFirstBg">
-								<span class="imMnMnTxt"><span class="imMnMnImg"></span>Acceso</span>
-							</span>
-						</a>
-					</li><li id="imMnMnNode7" class="imMnMnCurrent">
-						
-			</div>
-			<div id="imContentGraphics"></div>
-			<div id="imContent">
-            <div align="right">
-                <a href="salir.php">Cerrar Sesión</a>
-              </div>
-				<a id="imGoToCont"></a>
-			  <h2 align="right" id="imPgTitle"><span class="we"></span>  <MARQUEE BEHAVIOR=alternate>      BIENVENIDO ADMINISTRADOR   </MARQUEE>     </h2>
-              <p>&nbsp;</p>
-              <p>&nbsp;</p>
-              <p>&nbsp;</p>
-              
-      <center>
-               <div>
-			  <ul id="MenuBar1" class="MenuBarHorizontal">
-              
-                              <li><a class="MenuBarItemSubmenu" href="#">REGISTRO</a>
-                                <ul>
-                                  <li><a href="nuevo registro.php">nuevo</a></li>
-                                  <li><a href="editar.php">editar</a></li>
-                                  <li><a href="eliminar.php">eliminar</a></li>
-                                </ul>
-                              </li>
-                              <li><a class="MenuBarItemSubmenu" href="#">CLUBS</a>
-                                <ul>
-                                  <li><a href="danza.php">danza</a>                                  </li>
-                                  <li><a href="fut-bol.php">fut-bol</a></li>
-                                  <li><a href="pintura.php">pintura</a></li>
-                                  <li><a href="banda de guerra.php">banda de guerra</a></li>
-                                  <li><a href="robotica.php">robotica</a></li>
-                                  <li><a href="escolta.php">escolta</a></li>
-                                  <li><a href="basket-ball.php">basket-ball</a></li>
-                                </ul>
-                              </li>
-                              <li><a href="buscar.php">BUSQUEDA</a></li>
-                              <li><a href="">NOTIFICACION</a></li>
-                              <li><a href="salidasprog.php">SALIDAS</a></li>
-                              <li><a href="#">EXPORTAR</a></li>
-                              <li><a href="#">IMPRIMIR</a></li>
-			  </ul>
-              </div>
-            </center>
-<div class="imClear"></div>
-			</div>
-			<div id="imFooter">
-				
-				<div onclick="x5engine.utils.location('creditos.html'); return false;" style="position: absolute; top: 5px; left: 879px; width: 66px; height: 62px; cursor: pointer;"></div>
-			</div>
-		</div>
-		
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="esstilos.css" />
+</head>
+
+  <body bgcolor="#CC6600">
+  
+
+
+
+<center>
+  <p><img src="../proyecto/imagen/top.png" width="1200" height="150" alt="j" /></p>
+  <div id="imMnMn" class="auto"></div>
+  <center>
+  <h1 align="center" id="imPgTitle">
+              <span class="we"></span>  <BEHAVIOR=alternate class="k">     
+              <em> BIENVENIDO ADMINISTRADOR</em>
+                  
+</h1>
     
-	</body>
+  <center>
+  
+  </center>
+  
+<table>
+    
+    <td><td><td><td><td><td>
+  <td align="center">
+  <ul  id="MenuBar1" class="MenuBarHorizontal">
+    <li> <a class="MenuBarItemSubmenu" href="#">REGISTRO</a>
+      <ul>
+        <li><a href="#" class="MenuBarItemSubmenu">NUEVO</a>
+          <ul>
+            <li><a href="registro alumno.php">ALUMNO</a></li>
+            <li><a href="nuevo club.php">CLUB</a></li>
+            <li><a href="nuevo event.php">EVENTO</a></li>
+          </ul>
+        </li>
+        <li><a href="editar.php" class="MenuBarItemSubmenu">EDITAR</a>
+          <ul>
+            <li><a href="#">ALUMNO</a></li>
+            <li><a href="#">CLUB</a></li>
+            <li><a href="#">EVENTO</a></li>
+          </ul>
+        </li>
+        <li><a href="eliminar.php" class="MenuBarItemSubmenu">ELIMINAR</a>
+          <ul>
+            <li><a href="#">ALUMNO</a></li>
+            <li><a href="#">CLUB</a></li>
+            <li><a href="#">EVENTO</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a class="MenuBarItemSubmenu" href="#">CLUBS</a>
+      <ul>
+        <li><a href="banda de guerra.php">BANDA</a>          </li>
+        <li><a href="danza.php">DANZA</a></li>
+        <li><a href="pintura.php">PINTURA</a></li>
+        <li><a href="fut-bol.php">FUT BOL</a></li>
+        <li><a href="robotica.php">ROBOTICA </a></li>
+        <li><a href="basket-ball.php">BASQUET</a></li>
+      </ul>
+    </li>
+    <li><a href="buscar.php">BUSQUEDA</a></li>
+    <li><a href="#">NOTIFICACION</a></li>
+    <li><a href="salidasprog.php">SALIDAS</a></li>
+    <li><a href="#">EXPORTAR</a></li>
+    <li><a href="#">IMPRIMIR</a></li>
+    <li><a href="validar.php">CERRAR SESION</a></li>
+  </ul>
+  </center>
+  
+  </td> </td> </td> </td> </td> </td>
+</table>
+<div class="col-lg-5"   style="background-color: #FFF; height:500px; width:1200px; margin-right:auto; margin-left:auto;   ">
+<div class="slider">
+<ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<li><img src="imagen/Tec-Tacámbaro-Banner-Paginas.jpg" alt="" width="546" height="294"></li>
+<li></li>
+<li><img src="imagen/14359629_10210059773358125_571790608_o-1024x765.jpg" alt="" width="546" height="294"></li>
+<li><i<li><img src="imagen/hqdefault.jpg" alt="" width="546" height="294"></li>
+<li><i<li><img src="imagen/00e28a3177e6dd4a38d9dc815c186ded1179f2c0f63e50bbca7cd192c61d5d71f288fe3eb7a60f81719295abe89d5131a9905f456f65c67d8b7835d6d22b4d1d.jpg"alt="" width="546" height="294"></li>
+<li><i<li><img src="imagen/2013-02-18-090.jpg" alt="" width="546" height="294"></li>
+<li><i<li><img src="imagen/FINAL-F-1.jpg" alt="" width="546" height="294"></li>
+<li><i<li><img src="imagen/Tec06-2.jpg" alt="" width="546" height="294"></li>
+<li><i<li><img src="imagen/tec.-new-telesecundarias.png" alt="" width="546" height="294"></li>
+
+ 
+  
+  
+  
+</center>
+<img src="../proyecto/imagen/Captura.PNG" width="1200" height="75" alt="k" />
+<p>&nbsp;</p>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
 </html>

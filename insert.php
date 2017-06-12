@@ -5,17 +5,16 @@
 include('conexion.php');
 
 $control=$_POST['num'];
-
+$foto='foto';
 $nom=$_POST['nombre'];
+$apellidos=$_POST['ape'];
+       $email=$_POST['mail'];
+     $semestre=$_POST['sem'];
+       $gene=$_POST['gen'];
 
-$apellido=$_POST['ape'];
 
-$club=$_POST['clu'];
-
-
-$con="insert into alumno value('$control','$nom','$apellido','$club')";
-
-$ro=mysql_query($con);
+$registrar="insert into alumnos value('$control','$foto','$nom','$apellidos','$email','$semestre','$gene')";
+$ro=mysql_query($registrar,$con);
 
 
 
