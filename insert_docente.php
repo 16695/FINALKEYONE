@@ -1,22 +1,20 @@
-7
+
 <?php
 
 
 include('conexion.php');
 
-     $clavee=$_POST['cve'];
-
-     $nombreE=$_POST['nomb'];
-	  $fechaS=$_POST['fs'];
-	 
-      $durac=$_POST['dur'];
-       $status=$_POST['stu'];
-	   $transporte=$_POST['transp'];
-	   $desti=$_POST['dest'];
+     $cp=$_POST['ced'];
+$foto='foto';
+     $nomb=$_POST['nombr'];
+      $app=$_POST['apel'];
+       $coorr=$_POST['maiil'];
+	   $tele=$_POST['telf'];
+	   $domi=$_POST['dom'];
    
 
 
-$registrar="insert into eventos value('$clavee','$nombreE', '$fechaS','$durac','$status','$transporte','$desti')";
+$registrar="insert into docente value('$cp','$foto','$nomb','$app','$coorr','$tele','$domi')";
 $ro=mysql_query($registrar,$con);
 
 
@@ -33,17 +31,17 @@ $ro=mysql_query($registrar,$con);
 			
 			<?php if($resultado>0){ ?>
 	<script type="text/javascript">
-	alert("Alumno Registrado");
+	alert("Docente Registrado");
     </script>
 	<script>
-	location.href="nuevo event.php";
+	location.href="nuevo docente.php";
 	</script>
 				<?php }else{ ?>
 						<script type="text/javascript">
-	alert("Alumno registrado ");
+	alert("Docente registrado ");
     </script>
 	<script>
-	location.href="nuevo event.php";
+	location.href="nuevo docente.php";
 	</script>		
 			<?php	} ?>		
 			
@@ -51,4 +49,3 @@ $ro=mysql_query($registrar,$con);
 		</center>
 	</body>
 	</html>	
-

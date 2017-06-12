@@ -1,6 +1,26 @@
+﻿
+<?
+//abrimos la sesión
+session_start();
+ 
+//Si la variable de sesión esta vacia no es usuario registrado y no permitira ver 
+if (!isset($_SESSION['tipo'])) 
+{ 
+    //nos envía al inicio
+    header("location:index.html"); 
+}
+
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<style type="text/css">
+<!--
+body{background: url(Fondos/background-5.jpg) no-repeat center;
+     background-size:1350px 1350px
+	}
+->
+</style>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Documento sin título</title>
 <script src="includes/ice/ice.js" type="text/javascript"></script>
@@ -9,7 +29,7 @@
 
 
 
-<body background="imagen/240_F_70655085_kAsIx4P17hhaD1aYyg9C13L0Q95ml0NM.jpg">
+<body>
 <center>
   <p><img src="imagen/top.png" width="960" height="150" alt="k" /></p>
  

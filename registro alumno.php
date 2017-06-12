@@ -1,6 +1,31 @@
+﻿<?
+//abrimos la sesión
+session_start();
+ 
+//Si la variable de sesión esta vacia no es usuario registrado y no permitira ver 
+if (!isset($_SESSION['tipo'])) 
+{ 
+    //nos envía al inicio
+    header("location:index.html"); 
+}
+
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<style type="text/css">
+<!--
+body{background: url(Fondos/background-5.jpg) no-repeat center;
+     background-size:1350px 1350px
+	}
+->
+.FGDF {
+	color: #FFF;
+}
+.RE {
+	color: #FFF;
+}
+</style>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Documento sin título</title>
 <script src="includes/ice/ice.js" type="text/javascript"></script>
@@ -11,7 +36,7 @@
 
 
 
-<body background="imagen/240_F_70655085_kAsIx4P17hhaD1aYyg9C13L0Q95ml0NM.jpg">
+<body>
 
 <center>
 
@@ -22,53 +47,39 @@
   <td align="center">
   <ul id="MenuBar1" class="MenuBarHorizontal">
     <li><a href="menuadmin.php">INICIO</a></li>
-    <li><a class="MenuBarItemSubmenu" href="#">REGISTRO</a>
+    <li><a href="registro alumno.php">ALUMNO</a>      </li>
+    <li><a href="nuevo club.php">CLUB</a></li>
+    <li><a href="nuevo event.php">EVENTOS</a></li>
+    <li><a href="nuevo docente.php">DOCENTE</a></li>
+    <li><a href="#" class="MenuBarItemSubmenu">INFORMACION CLUBS</a>
       <ul>
-        <li><a href="#" class="MenuBarItemSubmenu">NUEVO</a>
-          <ul>
-            <li><a href="#">ALUMNO</a></li>
-            <li><a href="#">CLUB</a></li>
-            <li><a href="#">EVENTO</a></li>
-          </ul>
-        </li>
-        <li><a href="#" class="MenuBarItemSubmenu">EDITAR</a>
-          <ul>
-            <li><a href="#">ALUMNO</a></li>
-            <li><a href="#">CLUB</a></li>
-            <li><a href="#">EVENTO</a></li>
-          </ul>
-        </li>
-        <li><a href="#" class="MenuBarItemSubmenu">ELIMINAR</a>
-          <ul>
-            <li><a href="#">ALUMNO</a></li>
-            <li><a href="#">CLUB</a></li>
-            <li><a href="#">EVENTO</a></li>
-          </ul>
-        </li>
-      </ul>
-  </li>
-    <li><a href="#" class="MenuBarItemSubmenu">CLUBS</a>
-      <ul>
-        <li><a href="#">BANDA</a></li>
-        <li><a href="#">DANZA</a></li>
-        <li><a href="#">PINTURA</a></li>
-        <li><a href="#">FUTBOL</a></li>
-        <li><a href="#">ROBOTICA</a></li>
-        <li><a href="#">BASQUET</a></li>
+        <li><a href="banda de guerra.php">BANDA</a></li>
+        <li><a href="danza.php">DANZA</a></li>
+        <li><a href="pintura.php">PINTURA</a></li>
+        <li><a href="fut-bol.php">FUTBOL</a></li>
+        <li><a href="robotica.php">ROBOTICA</a></li>
+        <li><a href="basket-ball.php">BASQUET</a></li>
       </ul>
 </li>
-    <li><a href="#">BUSQUEDA</a></li>
+    <li><a href="#" class="MenuBarItemSubmenu">CONSULTAS</a>
+      <ul>
+        <li><a href="alumno/index.php">ALUMNO</a></li>
+        <li><a href="club/index.php">CLUB</a></li>
+        <li><a href="evento/index.php">EVENTOS</a></li>
+        <li><a href="evento/index.php">DOCENTE</a></li>
+      </ul>
+    </li>
     <li><a href="#">NOTIFICACION</a></li>
-    <li><a href="#">SALIDAS</a></li>
-    <li><a href="#">EXPORTAR</a></li>
-    <li><a href="#">IMPRIMIR</a></li>
-    <li><a href="#">CERRAR SESION</a></li>
+    <li><a href="salidasprog.php">SALIDAS</a></li>
+    <li><a href="validar.php">CERRAR </a></li>
   </ul>
   </td> </td> </td> </td> </td> </td>
   </table>
 </center>
 
-<div class="col-lg-5"   style="background-color: #C60; height:35px; width:1200px; margin-right:auto; margin-left:auto;   "><MARQUEE BEHAVIOR=alternate class="L">NUEVO REGISTRO </MARQUEE> 
+<div class="col-lg-5"   style="background-color: #C60; height: 35px; width: 1200px; margin-right: auto; margin-left: auto; font-size: 24px; font-weight: bold; font-style: italic; color: #333; font-family: 'Comic Sans MS', cursive;"><MARQUEE BEHAVIOR=alternate class="L">
+  <span style="text-align: left; color: #000;">NUEVO ALUMNO </span>
+</MARQUEE> 
 </div>
 <div class="col-lg-5"   style="background-color: #FFF; height:500px; width:1200px; margin-right:auto; margin-left:auto;   ">
 
@@ -78,53 +89,61 @@
               
 
               <center>
-              <table align='center' width='80%' border='0' cellspacing='3' cellpadding='1'>
+              <p>&nbsp;</p>
+              <table width='22%' height="257" border='3' align='left' cellpadding='1' cellspacing='5'>
                 <tr>
-<th width="11%" bgcolor='#66FFCC'>NUM DE CONTROL</th>
-<th width="11%" bgcolor= "#66FFCC">NOMBRE</th>
-<th width="11%" bgcolor='#66FFCC'>APELLIDOS </th>
-<th width="11%" bgcolor="#66FFCC">EMAIL </th>
-<th width="11%" bgcolor="#66FFCC">SEMESTRE</th>
-<th width="11%" bgcolor="#66FFCC">GENERO</th>
+<th width="11%" bgcolor="#0066FF">NUM DE CONTROL</th><td><input type="number" name="num" ></td>
+</tr>
+<tr>
+<th width="11%" bgcolor= "#0066FF">NOMBRE</th><td><input type="text" name="nombre" ></td>
+</tr> 
+<tr>
+<th width="11%" bgcolor='#0066FF'>APELLIDOS </th><td><input type="text" name ="ape" ></td>
+</tr>
+<tr>
+<th width="11%" bgcolor="#0066FF">EMAIL </th><td><input type="text" name="mail" id="mail" ></td>
+</tr>
+<tr>
+<th width="11%" bgcolor="#0066FF">SEMESTRE</th><td><input type="text" name="sem" ></td>
+</tr>
+<tr>
+<th width="11%" bgcolor="#0066FF">GENERO</th><td><input type="text" name="gen" ></td>
+</tr>
+<tr>
+<th width="11%" bgcolor="#0066FF">CLUB</th>
 
+<td>
+<?php
+$link = mysql_connect('localhost','root','12345678');
+mysql_select_db ('extraescolar', $link) OR die ("No se puede conectar");
+
+$consulta= mysql_query("SELECT *FROM club " , $link); 
+
+echo '<select name="club">'; 
+
+while ($row=mysql_fetch_array($consulta))
+{echo '<option>'.$row['CLUB'] ;
+}
+
+echo "</select>";
+
+?>
+</td>
 </tr>
 
-
-
-<tr>
-
-<td><input type="number" name="num" ></td>	
-<td><input type="text" name="nombre" ></td> 
-<td><input type="text" name ="ape" ></td>
-<td><input type="text" name="mail" id="mail" ></td>
-<td><input type="text" name="sem" ></td>
-<td><input type="text" name="gen" ></td>
-
-	
-	
-
-
-</tr> 
-
-
 </table>
-              <center>
-              <table width="200" border="0" cellpadding="1">
-                <tr>
-                  <th bgcolor="#66FFCC">FOTO</th>
-                  <th bgcolor="#66FFCC">SUBIR</th>
-                </tr>
-                <td><input type="text" name="" ></td>
-				<td><input type="text" name="" ></td>
-
-              </table>
+    <center>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p><img src="imagen/usuarioRegistradoIcon.png" width="200" height="200" alt="g" /></p>
     </center>
-    <p>&nbsp;</p>
-              <p>&nbsp;</p>
-              <p>&nbsp;</p>
-    <p><img src="imagen/usuarioRegistradoIcon.png" width="200" height="200" alt="g" />              
+    <p>    
     <p>
-                <input type="submit" name="guardar " value="GUARDAR DATOS " />
+    <p>
+    <p>.<span class="FGDF">.<span class="RE">XCXVCVXCVXCVXCVXCVXCVVVSDFSD</span></span>
+      <input type="submit" name="guardar " value="GUARDAR DATOS " />
                 
                 <INPUT TYPE="reset" VALUE="BORRAR DATOS ">
                 

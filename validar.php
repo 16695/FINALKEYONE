@@ -32,7 +32,7 @@ if ($tip=="Alumno")
 {
 ?> 
 <script>
-location.href="menualumno.php";
+location.href="alum/menualumno.php";
 </script>
 <?php
 }
@@ -40,7 +40,7 @@ if ($tip=="Docente")
 {
 ?> 
 <script>
-location.href="menudocente.php";
+location.href="docc/menudocente.php";
 </script>
 <?php
 }
